@@ -83,8 +83,6 @@ function GameManager:checkMoveable(obj, dest_x, dest_y)
                 return false
             end
             if (not maps.moveable[self.map[i][j]]) then
-                print("collision at ", i, j)
-
                 return false
             end
         end
