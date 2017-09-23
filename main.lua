@@ -48,4 +48,5 @@ function love.update(dt)
         end
         player.state = "front"
     end
+    print(player.coordinate.x, player.coordinate.y)
 end
