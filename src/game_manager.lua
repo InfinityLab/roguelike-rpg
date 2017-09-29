@@ -31,8 +31,8 @@ function GameManager:draw()
             image, frame = ImageLoader:getFrame(self.map[i][j])
             frame_x, frame_y, frame_width, frame_height = frame.getViewport(frame)
             love.graphics.draw(image, frame,
-                    i * self.tile_width,
-                    j * self.tile_height,
+                    j * self.tile_width,
+                    i * self.tile_height,
                     math.rad(0),
                     self.tile_width / frame_width,
                     self.tile_height / frame_height)
@@ -77,8 +77,8 @@ end
 
 function GameManager:checkMoveable(obj, dest_x, dest_y)
     -- First Loop object list to check if there is any collision
-    for i = math.floor(dest_x - obj.object_size / 2), math.ceil(dest_x + obj.object_size / 2) do
-        for j = math.floor(dest_y - obj.object_size / 2), math.ceil(dest_y + obj.object_size / 2) do
+    for i = math.ceil(dest_y - obj.object_size / 2), math.floor(dest_y + obj.object_size / 2) do
+        for j = math.floor(dest_x - obj.object_size / 2), math.floor(dest_x + obj.object_size / 2) do
             if (i <= 0 or i > self.map.height or j <= 0 or j > self.map.width) then
                 return false
             end

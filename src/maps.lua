@@ -51,7 +51,7 @@ maps.home = {
     g.floor, g.floor, g.floor, g.floor, g.floor, g.floor, g.floor, g.floor, g.floor, g.floor, g.floor, g.floor,
     g.floor, g.floor, g.floor, g.floor, g.floor, g.floor, g.floor, g.floor, g.floor, g.floor, g.floor, g.floor},
     {g.floor, g.floor, g.floor, g.floor, g.floor, g.floor, g.floor, g.floor, g.floor, g.floor, g.floor, g.floor,
-    g.floor, g.floor, g.floor, g.floor, g.floor, g.floor, g.floor, g.floor, g.floor, g.floor, g.floor, g.floor,
+    g.floor, g.floor, g.floor, g.floor, g.floor, g.floor, g.wall, g.wall, g.wall, g.wall, g.wall, g.floor,
     g.floor, g.floor, g.floor, g.floor, g.floor, g.floor, g.floor, g.floor, g.floor, g.floor, g.floor, g.floor},
     {g.floor, g.floor, g.floor, g.floor, g.floor, g.floor, g.floor, g.floor, g.floor, g.floor, g.floor, g.floor,
     g.floor, g.floor, g.floor, g.floor, g.floor, g.floor, g.floor, g.floor, g.floor, g.floor, g.floor, g.floor,
